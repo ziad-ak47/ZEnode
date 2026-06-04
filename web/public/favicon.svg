@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="hex-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#458588"/>
+      <stop offset="100%" stop-color="#b16286"/>
+    </linearGradient>
+    <linearGradient id="text-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#ebdbb2"/>
+      <stop offset="100%" stop-color="#d5c4a1"/>
+    </linearGradient>
+  </defs>
+  <!-- Node.js-style rounded hexagon -->
+  <path d="M32 3
+    L56 16.5
+    L56 47.5
+    L32 61
+    L8  47.5
+    L8  16.5
+    Z"
+    fill="url(#hex-grad)"
+    stroke="#83a598"
+    stroke-width="1.5"
+    rx="4"
+  />
+  <!-- Inner subtle highlight -->
+  <path d="M32 8
+    L52 19.5
+    L52 44.5
+    L32 56
+    L12 44.5
+    L12 19.5
+    Z"
+    fill="none"
+    stroke="rgba(235,219,178,0.12)"
+    stroke-width="1"
+  />
+  <!-- ZE text -->
+  <text
+    x="32" y="40"
+    text-anchor="middle"
+    font-family="'Inter','JetBrains Mono',monospace"
+    font-weight="900"
+    font-size="22"
+    letter-spacing="-1"
+    fill="url(#text-grad)"
+  >ZE</text>
+</svg>
