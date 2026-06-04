@@ -45,14 +45,6 @@ cd api && npm test
 # 99 passed, 1 skipped, 0 failed
 ```
 
-## .env
-```
-DATABASE_URL=postgresql://...pooler.supabase.com:6543/postgres
-PORT=3000
-JWT_SECRET=long-random-secret
-JWT_REFRESH_SECRET=another-long-random-secret
-```
-
 ## Navigation
 | Icon | Page | What it does |
 |------|------|-------------|
